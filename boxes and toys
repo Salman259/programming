@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+   int N,ti,ci,i=0;
+   cin>>N;
+   while(N--)
+   {
+   cin>>ti;
+   cin>>ci;
+   if(ci-ti>=2)
+   {
+   i++;
+   }
+   }
+   cout<<i;
+    return 0;
+  }
